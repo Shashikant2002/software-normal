@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftWare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ========== Header is Started Here ========== -->
+    <header>
+        <!------- Header width control Started Here ------->
+        <div class="width-control">
+            <!------- Header Logo Started Here ------->
+            <div class="logo">
+                <img src="header-logo2.png" alt="LOGO">
+                <p>Shashikant</p>
+            </div>
+            <!------- Header Menu Started Here ------->
+            <div class="more-menu">
+                <ul id="show-h">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Live Demo</a></li>
+                    <li><a href="#">Live Demo Blocks</a></li>
+                </ul>
+            </div>
+            <!------- Header Buy Button Started Here ------->
+            <div class="buy" id="hide-but">
+                <a href="#">Buy Now</a>
+            </div>
+            <span onclick="showhide()" class="fa-fa">&#9776</span>
+        </div>
+    </header>
+    <!-- ========== Header is End Here ========== -->
+    
+
+    <!-- ========== Show Image Start Here ========== -->
+    <section id="show">
+        <div class="main">
+            <div class="width-control-slide">
+                <h1>SoftwareM4 Theme</h1>
+                <p>Looking for a great easy-to-use theme to showcase your app or software? Meet SoftwareM4 - Bootstrap 4
+                    website theme with a wide array of cool blocks that empowers you quickly to craft a website you
+                    always
+                    wanted!</p>
+                <div class="buttons">
+                    <div class="but1">
+                        <a href="#">Buy Now</a>
+                    </div>
+                    <div class="but2">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== Show Image End Here ========== -->
+
+
+    <!-- ========== Show Image Start Here ========== -->
+    <section id="image">
+        <img src="bg.jpg" alt="">
+        <!-- <img src="bg.jpg" alt=""> -->
+    </section>
+    <!-- ========== Show Image End Here ========== -->
+
+    <!-- ========== Footer Start Here ========== -->
+   <footer>
+       <p>© Copyright 2025 Mobirise - All Rights Reserved</p>
+   </footer>
+    <!-- ========== Footer End Here ========== -->
+    
+
+
+
+    <!-- ========== Script Start Here ========== -->
+    <script>
+        function showhide(){
+            let show = document.getElementById('show-h');
+            let shows = document.getElementById('hide-but');
+            
+            if (show.style.top == '-100px') {
+                show.style.top = '100px';
+            }
+            else{
+                show.style.top = '-100px';
+            }
+
+            if (shows.style.top == '-140px') {
+                shows.style.top = '140px';
+            }
+            else{
+                shows.style.top = '-140px';
+            } 
+        }
+    </script>
+    <!-- ========== Script End Here ========== -->
+     
+</body>
+
+</html>
